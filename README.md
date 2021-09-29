@@ -1,4 +1,4 @@
 # pathakshashankgit.github.io
-This is a README for the site pathakshashankgit.github.io.
+This is a README for the page pathakshashankgit.github.io.
 
-I have put some of the works that I've done on that site.
+I have put some of the works that I've done on that webpage.
