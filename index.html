@@ -74,6 +74,14 @@ We conclude with how these two results together point out the limitations of the
          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
  
  <p>Last modified on <span id="demo"></span> (in mm/dd/yyyy format).</p>
+ 
+ <SCRIPT LANGUAGE="JavaScript">
+update = new Date(document.lastModified)
+theMonth = update.getMonth() + 1
+theDate = update.getDate()
+theYear = update.getFullYear()
+document.writeln("<I>Last updated:" + theMonth + "/" + theDate + "/" + theYear + "</I>")
+</SCRIPT>
 
 <script>
 document.getElementById("demo").innerHTML = document.lastModified;
